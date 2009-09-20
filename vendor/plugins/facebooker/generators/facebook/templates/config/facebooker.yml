@@ -9,8 +9,8 @@
 # This should only be necessary until the final version of the new profile is released.
 
 development:
-  api_key: 
-  secret_key: 
+  api_key: 3432325c56cfe90ee3de89faf9450e6f
+  secret_key: dcb840cbb3a378adc80f2822c9c26c84
   canvas_page_name:
   callback_url:
   pretty_errors: true
@@ -21,6 +21,19 @@ development:
     public_port: 4007
     local_port: 3000
 
+# development:
+#   api_key: 3432325c56cfe90ee3de89faf9450e6f
+#   secret_key: dcb840cbb3a378adc80f2822c9c26c84
+#   canvas_page_name: mygigzee
+#   # callback_url: http://localhost:3000
+#   callback_url: http://web1.tunnlr.com:10509/
+#   set_asset_host_to_callback_url: false
+#   # pretty_errors: true
+#   tunnel:
+#     public_host_username: tunnlr901 
+#     public_host: ssh1.tunnlr.com 
+#     public_port: 10509
+#     local_port: 3000
 test:
   api_key: 
   secret_key: 

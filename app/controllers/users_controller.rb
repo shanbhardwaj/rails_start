@@ -30,6 +30,7 @@ class UsersController < ApplicationController
   end
   
   def link_user_accounts
+debugger    
     if self.current_user.nil?
       #register with fb
       User.create_from_fb_connect(facebook_session.user)
